@@ -33,7 +33,7 @@ if(empty($detail)){
    $errors['detail'] = 'Detail must be between 5 and 200 characters';
 }
 
-/* // Number validation
+// Number validation
 if(strlen($number) !== 11){
    $errors['number'] = 'Invalid Phone Number';
 }
@@ -43,7 +43,7 @@ if(strlen($number) !== 11){
 
 if($selectedDate < $todaysDate){
    $errors['date'] = 'Pless Enter a fucher date';
-} */
+} 
 
 
 if(count($errors) > 0){
